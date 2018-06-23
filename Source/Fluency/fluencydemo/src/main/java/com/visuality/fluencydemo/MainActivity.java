@@ -15,22 +15,5 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        Letter letter = new Letter(
-                "c",
-                SoundType.CONSONANT
-        );
-
-        Word word = new Word.Builder()
-                .addLetter(
-                        letter
-                )
-                .build();
-
-        Phrase phrase = new Phrase.Builder()
-                .addSentence(
-                        new Sentence()
-                )
-                .build();
     }
 }
