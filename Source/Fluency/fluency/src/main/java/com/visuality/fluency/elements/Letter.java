@@ -1,4 +1,4 @@
-package com.visuality.fluency;
+package com.visuality.fluency.elements;
 
 public class Letter implements TextElement {
 
